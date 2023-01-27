@@ -22,7 +22,7 @@ public class MatrixClassTest {
 
  }
  @Test
- public void test_avg_matrix(){
+ public void shouldBeCorrectAvgArray(){
 
 
   MatrixClass checkMatrix = new MatrixClass();
