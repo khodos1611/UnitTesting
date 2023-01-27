@@ -6,19 +6,19 @@ public class MatrixClassTest {
  @Test
  public void shouldMatrixBeSquare(){
 
-  MatrixClass testMatrix = new MatrixClass();
+  MatrixClass checkMatrix = new MatrixClass();
 
   int[][] matrixSquare = {{1, 2, 4, 5}, {1, 2, 4, 5}, {1, 2, 4, 5}, {1, 2, 4, 5}};
 
-  Assertions.assertTrue(testMatrix.IsMatrixSquare(matrixSquare));
+  Assertions.assertTrue(checkMatrix.IsMatrixSquare(matrixSquare));
 
   int[][] matrixNotSquare = new int[3][4];
 
-  Assertions.assertFalse(testMatrix.IsMatrixSquare(matrixNotSquare));
+  Assertions.assertFalse(checkMatrix.IsMatrixSquare(matrixNotSquare));
 
   int[][] matrixEmpty = new int[0][0];
 
-  Assertions.assertFalse(testMatrix.IsMatrixSquare(matrixEmpty));
+  Assertions.assertFalse(checkMatrix.IsMatrixSquare(matrixEmpty));
 
  }
  @Test
